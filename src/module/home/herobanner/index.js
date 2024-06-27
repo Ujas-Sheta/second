@@ -7,8 +7,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import User_image from '../../../assests/image/profile.jpeg'
-import User_image_1 from '../../../assests/image/2.jpeg'
-import User_image_2 from '../../../assests/image/3.jpeg'
 
 
 export default function Herobanner() {
