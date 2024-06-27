@@ -30,6 +30,7 @@ export default function Herobanner() {
                         <div className='bar-menu'>
                             <div className='menu-details'>
                                 <img src={DashboardLogo} alt='DashboardLogo'></img>
+                                   <h2>Hello World </h2>
                                 <a>Dashboard</a>
                             </div>
 
