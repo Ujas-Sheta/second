@@ -1,0 +1,22 @@
+@import '../../../scss/main.scss';
+
+.header-section{
+    .header-flex{
+        @include flex;
+        justify-content: space-between;
+        padding: 30px 50px;
+        border-bottom: 1px solid var( --theme-bar-border-bottom-color);
+
+        .header-image{
+            @include flex;
+            justify-content: center;
+
+            img{
+                height: 50px;
+                width: 60px;
+                object-fit: cover;
+                border-radius: 50%;
+            }
+        }
+    }
+}

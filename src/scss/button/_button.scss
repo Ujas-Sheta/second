@@ -1,0 +1,21 @@
+@mixin header-btn {
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    color: var(--theme-white-text-color);
+    background-color: var(--theme-header-btn-backgrond-color);
+    @include font14-bold;
+}
+
+@mixin herobanner-btn {
+    background: var(--theme-herobanner-button-background-color);
+    border: none;
+    border-radius: 8px;
+    color: var(--theme-white-text-color);
+    @include font24-medium;
+    padding: 15px 30px;
+
+    @media(max-width:576px) {
+        @include font20;
+    }
+}
